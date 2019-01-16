@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post"><br><br>
+        <table align="center" width="60%" > 
+            <tr>
+                <td>Username:</td> <td><Input type="text" name="Username" size="15"></td>
+            </tr>
+            <tr>
+                <td>Password:</td> <td><Input type="password" name="Password" size="15" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td> <td><Input type="Date" name="Date of birth" size="15"></td>
+            </tr>
+            <tr>
+                <td>Web URL:</td> <td><Input type="url" name="Website" size="15"></td>
+            </tr>
+            <tr>
+                <td>Address:</td> <td><Input type="text" name="Address" size="15"></td>
+            </tr>
+            <tr>
+                <td>City:</td> <td><Select name="Cities">
+                                    <option>Hyderabad</option>
+                                    <option selected>Karachi</option>
+                                    <option>Punjab</option>
+                                    <option>Islamabad</option>
+                                    </Select>
+                                </td>
+            </tr>
+            <tr>
+                <td>State:</td> <td><Input type="text" name="State" size="5"></td>
+            </tr>
+            <tr>
+                <td>Zip:</td> <td><Input type="text" name="Zip" size="5"></td>
+            </tr>
+            <tr>
+                <td>Magazine:</td> <td><select name="Magazines" multiple>
+                                        <option>Newsweek</option>
+                                        <option>Time</option>
+                                        <option>Fortune</option>
+                                        <option>TV Guide</option>
+                                        </select>
+                                    </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Contact details</legend>
+                            <label>Email:<br>
+                            <Input type="email" name="email" size="15"></label><br>
+                            <label>Mobile:<br>
+                            <Input type="text" name="Mobile" size="15"></label><br>
+                            <label>Telephone:<br>
+                             <Input type="text" name="Telephone" size="15"></label>            
+                    </fieldset>
+                </td>
+            </tr>    
+            <tr>
+                <td colspan="2">
+                    Additional Comments:<br>
+                    <Textarea name="Comments" cols="40" rows="6"></Textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload your profile picture:</td> <td><input type="file" name="Profile pic"><br><input type="submit" value="Upload"></td>
+            </tr>
+            <tr>
+                <td><button>Send your order</button></td><td></td>
+            </tr>
+        </table><br><br>
+        <table align="center" width="60%">
+            <tr>
+                <td>Email Address: <input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Subscription: <input type="radio" name="Subscription" value="1 year" checked>1 year <input type="radio" name="Subscription" value="2 year">2 year</td>
+            </tr>    
+            <tr>
+                <td><input type="checkbox">Yes! Put me on the list</td>
+            </tr>
+        
+            <tr>
+                <td><input type="image" src="subscribe.jpeg" alt="subscribe" height="40" width="110"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

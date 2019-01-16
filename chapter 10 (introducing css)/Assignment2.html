@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css" >
+</head>
+<body>
+    <form action="mailto:amansafeer5@gmail.com" method="post"><br><br>
+        <table align="center" > 
+            <tr>
+                <td colspan="2"><h1>User Registration Form</h1></td>
+            </tr>
+            <tr>
+                <td>Username:</td> <td><Input type="text" name="Username" size="18"></td>
+            </tr>
+            <tr>
+                <td>Password:</td> <td><Input type="password" name="Password" size="18" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td> <td><Input type="Date" name="Date of birth" size="15"></td>
+            </tr>
+            <tr>
+                <td>Web URL:</td> <td><Input type="url" name="Website" size="18"></td>
+            </tr>
+            <tr>
+                <td>Address:</td> <td><Input type="text" name="Address" size="18"></td>
+            </tr>
+            <tr>
+                <td>City:</td> <td><Select name="Cities">
+                                    <option>Hyderabad</option>
+                                    <option selected>Karachi</option>
+                                    <option>Punjab</option>
+                                    <option>Islamabad</option>
+                                    </Select>
+                                </td>
+            </tr>
+            <tr>
+                <td>State:</td> <td><Input type="text" name="State" size="8"></td>
+            </tr>
+            <tr>
+                <td>Zip:</td> <td><Input type="text" name="Zip" size="8"></td>
+            </tr>
+            <tr>
+                <td>Magazine:</td> <td><select name="Magazines" multiple >
+                                        <option>Newsweek</option>
+                                        <option>Time</option>
+                                        <option>Fortune</option>
+                                        <option>TV Guide</option>
+                                        </select>
+                                    </td>
+            </tr>   
+            <tr>
+                <td colspan="2">
+                    Additional Comments:<br>
+                    <Textarea name="Comments" cols="40" rows="6"></Textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload your profile picture:</td> <td><input type="file" name="Profile pic"><br>
+                                                          <input class="button" type="submit" value="Upload"></td>
+            </tr>
+            <tr>
+                <td><button class="button">Send your order</button></td><td></td>
+            </tr>
+       
+    </form>
+</body>
+</html>

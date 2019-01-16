@@ -1,0 +1,37 @@
+body{
+    background-color:#DFE0F5;   
+}
+h1{
+    background-color:#1BBC9B;
+    color:white;
+    font-style: italic;
+    text-align:center;   
+}
+h2{
+    color:#7279B1;
+    font-style:italic;
+}
+.content{
+    font-size:40px;
+    border: 10px inset gray;
+    padding:20px;
+}
+p[class]{
+    color:red;
+}
+p[class="long-para"]{
+    color:blue;
+}
+p[class~="para"]{
+    color:green;
+}
+p[id^="i"]{
+    background:gray;
+}
+p[class*="para"]{
+    background: white;
+    color:gray;
+}
+p[class$="para"]{
+    color:#abebc6;
+}

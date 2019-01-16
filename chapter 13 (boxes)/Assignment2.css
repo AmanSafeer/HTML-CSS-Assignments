@@ -1,0 +1,201 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:white;
+    width:100%;
+    font-family:Arial;
+}
+#header{
+    width:100%;
+    height:83px;
+    background-color:rgb(59, 89, 154);
+    border-bottom:1px solid #364558;
+}
+.content{
+    width:1000px;
+    margin:0px auto;
+    display: flex;
+    justify-content:space-between;
+}
+/* fb logo */
+.heading{
+    margin-top:30px;
+}
+.h1:link{
+    color:white;
+    text-decoration: none;
+}
+.h1:visited{
+    color:white;
+}
+h1{
+color:white;
+font-size:38px;
+letter-spacing:-1px;
+margin: 0px;
+}
+/* signin section */
+.signin{
+    margin-top:14px;
+}
+table{
+    font-size:12px;
+    color:white;
+}
+td{
+    padding-left:10px;
+}
+input{
+    border:1px solid #364558;
+    height: 20px;
+}
+.signin_email, .signin_pass{
+    width:150px;
+}
+.login{
+    color:white;
+    font-weight: bold;
+    background-color: rgb(59, 89, 154);
+    height: 25px;
+}
+.Forgotten:link{
+    color:#899ec5;
+    text-decoration: none;
+}
+.Forgotten:visited{
+    color:#899ec5;
+}
+.Forgotten:hover{
+    text-decoration: underline;
+}
+/* Container */
+#container{
+    width:100%;
+    background:linear-gradient(white, #D3D8E8);
+}
+/* container left section */
+.section1{
+    margin-top:40px;
+
+}
+h2{
+    font-size:20px;
+    font-weight: bold;
+    width:460px;
+    line-height: 30px;
+    margin:0px;
+    color:#2B456A;
+}
+/* container right section */
+.section2{
+}
+h1.second{
+    color:#363636;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+h2.second{
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size: 18px;
+    color:#363636;
+    width:100%;
+}
+h2.one{
+    margin-bottom:0px; 
+}
+/* signup section */
+.signup{}
+.signup input.name{
+    width:175px;
+    margin-right: 10px;
+    height: 35px;
+    border:1px solid lightgray;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+.signup input.email, .signup input.pass{
+    width:375px; 
+    height: 35px;
+
+}
+input[placeholder]{
+    font-size: 17px;
+    padding-left:8px; 
+    
+}
+select{
+    height:30px;
+    width:60px; 
+     
+}
+div.birth{
+    display:inline-block;
+    width: 155px;
+    font-size:11px; 
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color:#3E67B9;
+}
+a:hover{
+    text-decoration: underline;
+}
+.gender{
+    margin-top: 14px;
+}
+h2.two{
+    display:inline;
+    margin-left: 5px;
+}
+.para{
+    width:350px;
+    font-size:11px;
+    color:gray;
+    margin-bottom:20px;
+}
+.two{
+    font-weight: bold;
+    font-size:13px;
+    margin:35px 0px;
+}
+.button{
+    width:220px;
+    height: 40px;
+    color:white;
+    background:#5F9C4D;
+    border:3px outset #7CBE5C;
+    border-radius: 8px;
+    font-size:18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px  black;
+}
+.button:active{
+    border:3px inset #7CBE5C;
+}
+.footer{
+    display:block;
+}
+.languages{
+    font-size: 12px;
+    margin-top:30px;
+    padding-bottom: 10px;
+    border-bottom:1px solid lightgray;
+}
+.languages>a{
+    padding-right: 5px;
+}
+
+.links>p{
+    width: 90%;
+    word-spacing: 20px;
+    font-size: 12px;
+    color:gray;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+   

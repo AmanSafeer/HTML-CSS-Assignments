@@ -1,0 +1,43 @@
+body{
+    background-color: #E0E2F3;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 320px;
+    height: 60px;
+}
+span{
+    font-weight: bold;
+    color: #848285;
+    font-size: 15px;
+}
+.paragraph{font-size: 13px}
+#content1{
+    background-color: #D3D3D3;
+}
+h3{
+    color:#7375C3;
+}
+h2{
+    color:#6471C6;
+}
+
+#content2{
+    background-color: white;
+}
+.glasses{
+    width: 180px;
+    height: 180px;
+}
+.shirts{
+    width: 200px;
+    height: 130px;
+}
+em{
+    color: #F37958;
+}
+p.footer{
+    font-size: 10px;
+    color: #9597AC;
+}
